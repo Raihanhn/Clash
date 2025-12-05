@@ -3,7 +3,7 @@ export default function Home() {
     <div className="w-full text-gray-800">
       
       {/* HEADER */}
-      <section className="bg-white py-16 px-6">
+      {/* <section className="bg-white py-16 px-6">
         <div className="max-w-5xl mx-auto text-center">
           <div className="flex justify-center items-center gap-3 mb-6">
             <h1 className="text-3xl font-bold text-purple-700">Sticky Memories</h1>
@@ -22,7 +22,97 @@ export default function Home() {
             Buy the Cards →
           </button>
         </div>
-      </section>
+      </section> */}
+
+
+    <section className="bg-white">
+      <div className="max-w-6xl mx-auto px-6 py-16 md:py-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+
+          {/* LEFT */}
+          <div className="order-2 md:order-1">
+            {/* logo / tag */}
+            <div className="flex items-center gap-3 mb-6">
+              {/* purple 'Sticky' tag */}
+              <div
+                className="px-3 py-1 rounded-md text-white font-semibold text-sm shadow-md"
+                style={{ backgroundColor: "#7b3fe4", transform: "rotate(-12deg)" }}
+              >
+                Sticky
+              </div>
+
+              {/* green 'Memories' tag */}
+              <div
+                className="px-3 py-1 rounded-md text-white font-semibold text-sm shadow-md"
+                style={{ backgroundColor: "#31B46F", transform: "rotate(-4deg)" }}
+              >
+                Memories
+              </div>
+            </div>
+
+            {/* headline */}
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-gray-900 leading-tight mb-4">
+              When their memory changes, <span className="block">staying close shouldn’t feel so hard.</span>
+            </h1>
+
+            {/* subtext */}
+            <p className="text-gray-600 max-w-xl mb-6">
+              <span className="block">
+                Sticky Memories™ prompt cards help you spark moments of pride and connection —
+              </span>
+              <span className="block">moments that make people feel like themselves again.</span>
+            </p>
+
+            {/* CTA row */}
+            <div className="flex items-center gap-4">
+              <a
+                href="#buy"
+                className="inline-flex items-center gap-3 bg-green-500 hover:bg-green-600 text-white rounded-full px-6 md:px-8 py-3 font-semibold shadow-lg transition-transform transform hover:-translate-y-0.5"
+              >
+                <span>Buy the Cards</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="w-4 h-4"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+
+              {/* small secondary CTA or trust text */}
+              <span className="hidden md:inline-block text-sm text-gray-500">Ships worldwide • 52 prompts</span>
+            </div>
+          </div>
+
+          {/* RIGHT: illustration */}
+          <div className="order-1 md:order-2 flex justify-center md:justify-end">
+            {/* brain illustration container similar to image (rounded, whitespace) */}
+            <div className="relative w-64 h-64 md:w-72 md:h-72 lg:w-80 lg:h-80">
+              {/* Replace the src with your brain illustration path */}
+              <img
+                src="/images/brain-sticky.png"
+                alt="Sticky Memories illustration"
+                className="w-full h-full object-contain"
+              />
+
+              {/* optional sticky note accents */}
+              <div className="hidden md:block absolute -left-6 -top-6 w-12 h-12 rounded-sm"
+                   style={{ backgroundColor: "#FFD36E", transform: "rotate(-10deg)" }} />
+              <div className="hidden md:block absolute -right-8 top-12 w-12 h-12 rounded-sm"
+                   style={{ backgroundColor: "#A8E0FF", transform: "rotate(6deg)" }} />
+              <div className="hidden md:block absolute right-6 -bottom-4 w-10 h-10 rounded-sm"
+                   style={{ backgroundColor: "#C1F7C4", transform: "rotate(-8deg)" }} />
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
 
 
       {/* WHY STAYING CLOSE GETS HARDER */}
