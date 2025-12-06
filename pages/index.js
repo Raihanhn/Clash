@@ -3,27 +3,6 @@ export default function Home() {
     <div className="w-full text-gray-800">
       
       {/* HEADER */}
-      {/* <section className="bg-white py-16 px-6">
-        <div className="max-w-5xl mx-auto text-center">
-          <div className="flex justify-center items-center gap-3 mb-6">
-            <h1 className="text-3xl font-bold text-purple-700">Sticky Memories</h1>
-          </div>
-
-          <h2 className="text-2xl font-semibold mb-4">
-            When their memory changes, staying close shouldn’t feel so hard.
-          </h2>
-
-          <p className="text-gray-600 max-w-2xl mx-auto mb-6">
-            Sticky Memories™ prompt cards help you spark moments of pride and connection — 
-            moments that make people feel like themselves again.
-          </p>
-
-          <button className="bg-green-500 text-white px-8 py-3 rounded-full text-lg font-semibold flex items-center gap-2 mx-auto">
-            Buy the Cards →
-          </button>
-        </div>
-      </section> */}
-
 
     <section className="bg-white">
       <div className="max-w-6xl mx-auto px-6 py-16 md:py-20">
@@ -93,7 +72,7 @@ export default function Home() {
             <div className="relative w-64 h-64 md:w-72 md:h-72 lg:w-80 lg:h-80">
               {/* Replace the src with your brain illustration path */}
               <img
-                src="/images/brain-sticky.png"
+                src="/sticky.png"
                 alt="Sticky Memories illustration"
                 className="w-full h-full object-contain"
               />
