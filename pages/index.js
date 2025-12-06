@@ -5,25 +5,25 @@ export default function Home() {
       {/* HEADER */}
 
     <section className="bg-white">
-      <div className="max-w-6xl mx-auto px-6 py-16 md:py-20">
+      <div className="max-w-6xl mx-auto px-6 py-16 md:py-20  pr-10 pl-10 lg:pr-40 lg:pl-40">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
 
           {/* LEFT */}
           <div className="order-2 md:order-1">
             {/* logo / tag */}
-            <div className="flex items-center gap-3 mb-6">
+            <div className="flex items-center gap-2 mb-6">
               {/* purple 'Sticky' tag */}
               <div
-                className="px-3 py-1 rounded-md text-white font-semibold text-sm shadow-md"
-                style={{ backgroundColor: "#7b3fe4", transform: "rotate(-12deg)" }}
+                className="px-3 py-1 rounded-md text-white  font-semibold text-sm md:text-[30px] shadow-md"
+                style={{ backgroundColor: "#7b3fe4", transform: "rotate(10deg)" }}
               >
                 Sticky
               </div>
 
               {/* green 'Memories' tag */}
               <div
-                className="px-3 py-1 rounded-md text-white font-semibold text-sm shadow-md"
-                style={{ backgroundColor: "#31B46F", transform: "rotate(-4deg)" }}
+                className="px-3 py-1 rounded-md text-white font-semibold text-sm md:text-[30px] shadow-md"
+                style={{ backgroundColor: "#31B46F", transform: "rotate(-8deg)" }}
               >
                 Memories
               </div>
@@ -35,11 +35,14 @@ export default function Home() {
             </h1>
 
             {/* subtext */}
-            <p className="text-gray-600 max-w-xl mb-6">
+            <p className="text-gray-800 max-w-xl mb-6">
               <span className="block">
-                Sticky Memories™ prompt cards help you spark moments of pride and connection —
+                Sticky Memories™ prompt cards help you spark
               </span>
-              <span className="block">moments that make people feel like themselves again.</span>
+               <span className="block">
+                 moments of pride and connection - moments that
+              </span>
+              <span className="block"> make people feel like themselves again.</span>
             </p>
 
             {/* CTA row */}
@@ -61,8 +64,6 @@ export default function Home() {
                 </svg>
               </a>
 
-              {/* small secondary CTA or trust text */}
-              <span className="hidden md:inline-block text-sm text-gray-500">Ships worldwide • 52 prompts</span>
             </div>
           </div>
 
