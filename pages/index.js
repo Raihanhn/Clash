@@ -30,7 +30,7 @@ export default function Home() {
             </div>
 
             {/* headline */}
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-gray-900 leading-tight mb-4">
+            <h1 className="text-3xl md:text-2xl lg:text-2xl font-bold text-gray-900 leading-tight mb-4">
               When their memory changes, <span className="block">staying close shouldn’t feel so hard.</span>
             </h1>
 
@@ -69,7 +69,7 @@ export default function Home() {
           {/* RIGHT: illustration */}
           <div className="order-1 md:order-2 flex justify-center md:justify-end">
             {/* brain illustration container similar to image (rounded, whitespace) */}
-            <div className="relative w-64 h-64 md:w-72 md:h-72 lg:w-80 lg:h-80">
+            <div className="relative w-64 h-64 md:w-90 md:h-90 lg:w-100 lg:h-100">
               {/* Replace the src with your brain illustration path */}
               <img
                 src="/sticky.png"
